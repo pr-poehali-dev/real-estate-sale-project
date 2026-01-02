@@ -8,7 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import Icon from '@/components/ui/icon';
 
 const Index = () => {
-  const [loanAmount, setLoanAmount] = useState(3000000);
+  const [loanAmount, setLoanAmount] = useState(5500000);
   const [interestRate, setInterestRate] = useState(12);
   const [loanTerm, setLoanTerm] = useState(15);
 
@@ -28,8 +28,9 @@ const Index = () => {
       additionalArea: 'Гардеробная 6.8 м²',
       floor: '2 этаж',
       metro: 'м. Зябликово (700 м) / м. Красногвардейская',
-      price: '2 500 000 ₽',
-      image: 'https://cdn.poehali.dev/projects/3b460f12-f4b2-445b-a33e-593154c5a33a/files/df282654-6e03-49e8-8383-7e9fb9cce854.jpg',
+      price: '5 500 000 ₽',
+      image: 'https://cdn.poehali.dev/files/IMG_5308.jpeg',
+      images: ['https://cdn.poehali.dev/files/IMG_5308.jpeg', 'https://cdn.poehali.dev/files/IMG_5232.jpeg'],
       features: ['Гардеробная', 'Балкон', '10 минут до метро', 'Юг Москвы']
     },
     {
@@ -40,7 +41,7 @@ const Index = () => {
       additionalArea: 'Доля в МОП 7 м²',
       floor: '1 этаж',
       metro: '6 км от м. Зябликово',
-      price: '3 500 000 ₽',
+      price: '6 000 000 ₽',
       image: 'https://cdn.poehali.dev/projects/3b460f12-f4b2-445b-a33e-593154c5a33a/files/1af60109-43b8-464e-b564-48ebbdd19bc4.jpg',
       features: ['Стиль Loft', 'Хороший ремонт', 'Для бизнеса', 'Готово к проживанию']
     }
@@ -162,8 +163,8 @@ const Index = () => {
             </TabsList>
             <TabsContent value="property1" className="space-y-4">
               <div className="grid md:grid-cols-2 gap-4">
-                <img src={properties[0].image} alt="Комната" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
-                <img src="https://cdn.poehali.dev/projects/3b460f12-f4b2-445b-a33e-593154c5a33a/files/8052b955-0faa-4529-bcdd-ec96ce52cc4c.jpg" alt="Здание" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
+                <img src="https://cdn.poehali.dev/files/IMG_5308.jpeg" alt="Комната 11.6 кв.м" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
+                <img src="https://cdn.poehali.dev/files/IMG_5232.jpeg" alt="Гардеробная-кладовая 6.8 кв.м" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
               </div>
             </TabsContent>
             <TabsContent value="property2" className="space-y-4">
@@ -193,7 +194,7 @@ const Index = () => {
                     <Slider
                       id="amount"
                       min={1000000}
-                      max={5000000}
+                      max={10000000}
                       step={100000}
                       value={[loanAmount]}
                       onValueChange={(value) => setLoanAmount(value[0])}
