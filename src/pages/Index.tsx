@@ -166,6 +166,12 @@ const Index = () => {
                 <img src="https://cdn.poehali.dev/files/IMG_5308.jpeg" alt="Комната 11.6 кв.м" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
                 <img src="https://cdn.poehali.dev/projects/3b460f12-f4b2-445b-a33e-593154c5a33a/bucket/db02bc9f-b178-4d6e-9428-18fe9548ab3d.jpeg" alt="Кладовая 6.8 кв.м" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
               </div>
+              <div className="flex gap-3 pt-2">
+                <a href="https://www.avito.ru/moskva/komnaty/komnata_18_m_v_4-k._212_et._3070220144" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors text-sm font-medium">
+                  <Icon name="ExternalLink" size={16} />
+                  Авито
+                </a>
+              </div>
             </TabsContent>
             <TabsContent value="property2" className="space-y-4">
               <div className="grid md:grid-cols-2 gap-4">
