@@ -164,13 +164,14 @@ const Index = () => {
             <TabsContent value="property1" className="space-y-4">
               <div className="grid md:grid-cols-2 gap-4">
                 <img src="https://cdn.poehali.dev/files/IMG_5308.jpeg" alt="Комната 11.6 кв.м" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
-                <img src="https://cdn.poehali.dev/files/IMG_5232.jpeg" alt="Гардеробная-кладовая 6.8 кв.м" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
+                <img src="https://cdn.poehali.dev/projects/3b460f12-f4b2-445b-a33e-593154c5a33a/bucket/db02bc9f-b178-4d6e-9428-18fe9548ab3d.jpeg" alt="Кладовая 6.8 кв.м" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
               </div>
             </TabsContent>
             <TabsContent value="property2" className="space-y-4">
               <div className="grid md:grid-cols-2 gap-4">
                 <img src={properties[1].image} alt="Апартаменты" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
                 <img src="https://cdn.poehali.dev/projects/3b460f12-f4b2-445b-a33e-593154c5a33a/files/8052b955-0faa-4529-bcdd-ec96ce52cc4c.jpg" alt="Экстерьер" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
+                <img src="https://cdn.poehali.dev/projects/3b460f12-f4b2-445b-a33e-593154c5a33a/bucket/5ad4f5f4-4c4f-441f-a36a-7028021440b5.png" alt="Дизайн-проект апартаментов" className="rounded-lg shadow-lg w-full md:col-span-2 h-64 object-cover hover:scale-105 transition-transform duration-300" />
               </div>
             </TabsContent>
           </Tabs>
