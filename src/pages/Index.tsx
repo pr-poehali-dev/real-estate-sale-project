@@ -177,6 +177,8 @@ const Index = () => {
               <div className="grid md:grid-cols-2 gap-4">
                 <img src="https://cdn.poehali.dev/projects/3b460f12-f4b2-445b-a33e-593154c5a33a/bucket/5ad4f5f4-4c4f-441f-a36a-7028021440b5.png" alt="Дизайн-проект апартаментов" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
                 <img src="https://cdn.poehali.dev/projects/3b460f12-f4b2-445b-a33e-593154c5a33a/files/8052b955-0faa-4529-bcdd-ec96ce52cc4c.jpg" alt="Экстерьер" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
+                <img src="https://cdn.poehali.dev/projects/3b460f12-f4b2-445b-a33e-593154c5a33a/bucket/39413c6b-ae63-443b-acc4-040495c6b664.jpeg" alt="Прихожая" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
+                <img src="https://cdn.poehali.dev/projects/3b460f12-f4b2-445b-a33e-593154c5a33a/bucket/b2b5b705-9361-41b4-842e-e5b269c8bf26.jpg" alt="Двор и паркинг" className="rounded-lg shadow-lg w-full h-64 object-cover hover:scale-105 transition-transform duration-300" />
               </div>
               <div className="flex gap-3 pt-2">
                 <a href="https://m.avito.ru/vidnoe/kvartiry/apartamenty-studiya_25_m_116_et._7559489067" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors text-sm font-medium">
