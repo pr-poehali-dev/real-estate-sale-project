@@ -42,7 +42,7 @@ const Index = () => {
       floor: '1 этаж',
       metro: '6 км от м. Зябликово',
       price: '6 000 000 ₽',
-      image: 'https://cdn.poehali.dev/projects/3b460f12-f4b2-445b-a33e-593154c5a33a/files/1af60109-43b8-464e-b564-48ebbdd19bc4.jpg',
+      image: 'https://cdn.poehali.dev/projects/3b460f12-f4b2-445b-a33e-593154c5a33a/bucket/b2b5b705-9361-41b4-842e-e5b269c8bf26.jpg',
       features: ['Стиль Loft', 'Хороший ремонт', 'Для бизнеса', 'Готово к проживанию']
     }
   ];
